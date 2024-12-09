@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3908330548797378419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4561810676983815381}
+  - component: {fileID: 8771129416818056296}
+  m_Layer: 0
+  m_Name: GameInitiator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4561810676983815381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908330548797378419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8771129416818056296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908330548797378419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8b6ef245137ca4d9900b63d3d0624f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingBarType: 0
+  SceneToLoad: SampleScene
+  _entryScreen: {fileID: 6904534447588117521, guid: 4054cbd8fedbc8344a05705e51a66ec4, type: 3}
+  _camera: {fileID: 1165520369725822524, guid: 148343142c33c6a4fa141975a832fb53, type: 3}
+  _updateManager: {fileID: 1005646697471442655, guid: 66cc18e567c25094e842df4e4ebcc454, type: 3}
+  _fixedUpdateManager: {fileID: 3176785871638875337, guid: 68668d4f63147ec4a812cc660aa47fc8, type: 3}
+  _lateUpdateManager: {fileID: 6093590953934007534, guid: e3d6b5c7f11831f41af2dbc90c0bd486, type: 3}
+  _tickSystem: {fileID: 3767533935489949850, guid: ec3e845ee78384043b7c821c1f16d4a9, type: 3}
+  _sceneLoader: {fileID: 1771343633987980672, guid: 57ba3c82f44fabb4eafde6f79edef500, type: 3}
+  _introAnimation: {fileID: 657336703648495829, guid: b7647b64eab6fd147997897f83a94663, type: 3}
+  _objectPools:
+  - {fileID: 2163702020571323965, guid: b52550836010e424c9eab811b6c8f960, type: 3}
+  - {fileID: 2163702020571323965, guid: 19f30dc0b085afe41ae979351ec545df, type: 3}
+  - {fileID: 2163702020571323965, guid: 1ee53c1168b6ead49b24bbe2a1e15da6, type: 3}
